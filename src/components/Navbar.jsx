@@ -41,7 +41,7 @@ export default function Navbar() {
           className="flex items-center gap-3 font-semibold tracking-tight"
         >
           <img
-            src="/portfolio_logo.svg"
+            src={`${import.meta.env.BASE_URL}portfolio_logo.svg`}
             alt="Portfolio Logo"
             className="h-10 w-10 object-contain rounded-full"
           />
