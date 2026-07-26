@@ -12,6 +12,7 @@ function Hero() {
 
       <div className="grid w-full items-center gap-12 lg:grid-cols-[1.08fr_0.92fr]">
         <motion.div 
+          className="flex flex-col items-center text-center md:items-start md:text-left"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
@@ -29,7 +30,7 @@ function Hero() {
             I am {profileData.name.split(' ')[0]}, {profileData.bio}
           </p>
 
-          <div className="mt-8 flex flex-col gap-3 sm:flex-row">
+          <div className="mt-8 flex w-full flex-col justify-center gap-3 sm:flex-row md:w-auto md:justify-start">
             <Button asChild size="lg">
               <a href="#projects">
                 View projects <ArrowRight />
@@ -47,7 +48,7 @@ function Hero() {
             </Button>
           </div>
 
-          <div className="mt-8 flex gap-3 text-muted-foreground">
+          <div className="mt-8 flex justify-center gap-3 text-muted-foreground md:justify-start">
             {[
               ["icons/github.png", "GitHub", socialData.github],
               ["icons/linkedin.png", "LinkedIn", socialData.linkedin],
