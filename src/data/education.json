@@ -1,0 +1,73 @@
+[
+  {
+    "id": 1,
+    "institution": "MIT Art, Design and Technology University",
+    "location": "Pune, Maharashtra, India",
+    "degree": "Bachelor of Technology",
+    "field": "Information Technology",
+    "duration": {
+      "start": "2025",
+      "end": "2028"
+    },
+    "status": "Pursuing",
+    "cgpa": "",
+    "description": "Focused on software development, artificial intelligence, machine learning, cloud computing, and full-stack web development.",
+    "coursework": [
+      "Data Structures & Algorithms",
+      "Database Management Systems",
+      "Operating Systems",
+      "Computer Networks",
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Quantum Technology",
+      "Deep Learning"
+    ],
+    "achievements": [
+      "IBM Quantum Global Summer School Participant",
+      "Built multiple AI and full-stack projects"
+    ],
+    "logo": "/education/mitadt.png",
+    "website": "https://mituniversity.ac.in"
+  },
+  {
+    "id": 2,
+    "institution": "Higher Secondary School",
+    "location": "Maharashtra, India",
+    "degree": "Higher Secondary Certificate (HSC)",
+    "field": "Science",
+    "duration": {
+      "start": "2022",
+      "end": "2024"
+    },
+    "status": "Completed",
+    "percentage": "",
+    "description": "Completed higher secondary education with a focus on Physics, Chemistry, and Mathematics.",
+    "coursework": [
+      "Physics",
+      "Chemistry",
+      "Mathematics",
+      "Biology"
+    ],
+    "achievements": [],
+    "logo": "/education/hsc.png",
+    "website": ""
+  },
+  {
+    "id": 3,
+    "institution": "Secondary School",
+    "location": "Maharashtra, India",
+    "degree": "Secondary School Certificate (SSC)",
+    "field": "",
+    "duration": {
+      "start": "",
+      "end": "2022"
+    },
+    "status": "Completed",
+    "percentage": "",
+    "description": "Completed secondary school education.",
+    "coursework": [],
+    "achievements": [],
+    "logo": "/education/ssc.png",
+    "website": ""
+  }
+]

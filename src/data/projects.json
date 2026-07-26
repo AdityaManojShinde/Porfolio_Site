@@ -1,0 +1,31 @@
+[
+  {
+    "id": 1,
+    "title": "PipelineAI",
+    "description": "AI workflow automation platform.",
+    "image": "/projects/pipelineai.png",
+    "github": "https://github.com/...",
+    "demo": "https://...",
+    "featured": true,
+    "tags": [
+      "React",
+      "FastAPI",
+      "LangChain",
+      "PostgreSQL"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Fake News Detector",
+    "description": "Machine Learning model for fake news detection.",
+    "image": "/projects/fakenews.png",
+    "github": "...",
+    "demo": "...",
+    "featured": false,
+    "tags": [
+      "Python",
+      "Scikit-Learn",
+      "Gradio"
+    ]
+  }
+]

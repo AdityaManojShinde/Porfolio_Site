@@ -1,0 +1,16 @@
+[
+  {
+    "title": "IBM Quantum Global Summer School",
+    "issuer": "IBM",
+    "date": "2026",
+    "image": "/certificates/qgss.png",
+    "credential": "https://..."
+  },
+  {
+    "title": "Machine Learning Specialization",
+    "issuer": "Coursera",
+    "date": "2025",
+    "image": "/certificates/ml.png",
+    "credential": "https://..."
+  }
+]
