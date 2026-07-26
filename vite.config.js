@@ -5,6 +5,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/Porfolio_Site/',
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {

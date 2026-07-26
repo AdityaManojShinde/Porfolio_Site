@@ -7,7 +7,7 @@ import ProjectDetails from "@/pages/ProjectDetails"
 
 function App() {
   return (
-    <Router>
+    <Router basename="/Porfolio_Site">
       <div className="min-h-screen overflow-hidden bg-background text-foreground">
         <Navbar />
         <main>
