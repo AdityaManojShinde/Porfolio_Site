@@ -2,7 +2,6 @@ import { motion } from "framer-motion"
 
 import SectionHeading from "@/components/SectionHeading"
 import educationData from "@/data/education.json"
-import placeholderImage from "@/assets/project-placeholder.png"
 
 const container = {
   hidden: { opacity: 0 },
@@ -21,7 +20,7 @@ const item = {
 
 function Education() {
   const handleImageError = (e) => {
-    e.target.src = placeholderImage
+    e.target.src = `${import.meta.env.BASE_URL}project-placeholder.png`
   }
 
   return (

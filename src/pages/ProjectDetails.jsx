@@ -4,7 +4,8 @@ import { motion } from "framer-motion"
 
 import projectsData from "@/data/projects.json"
 import { Button } from "@/components/ui/button"
-import placeholderImage from "@/assets/project-placeholder.png"
+
+import { Helmet } from 'react-helmet-async'
 
 function ProjectDetails() {
   const { id } = useParams()
@@ -22,16 +23,21 @@ function ProjectDetails() {
   }
 
   const handleImageError = (e) => {
-    e.target.src = placeholderImage
+    e.target.src = `${import.meta.env.BASE_URL}project-placeholder.png`
   }
 
   return (
-    <motion.section 
-      initial={{ opacity: 0, y: 20 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.5 }}
-      className="mx-auto max-w-4xl px-5 py-32"
-    >
+    <>
+      <Helmet>
+        <title>{project.title} | Aditya Shinde</title>
+        <meta name="description" content={project.description} />
+      </Helmet>
+      <motion.section 
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
+        className="mx-auto max-w-4xl px-5 py-32"
+      >
       <Button asChild variant="ghost" className="mb-8">
         <Link to="/" className="inline-flex items-center">
           <ArrowLeft className="mr-2 size-4" />
@@ -81,6 +87,7 @@ function ProjectDetails() {
         {/* Additional project details could be mapped here if available in JSON */}
       </div>
     </motion.section>
+    </>
   )
 }
 

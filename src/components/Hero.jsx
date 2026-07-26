@@ -49,17 +49,23 @@ function Hero() {
 
           <div className="mt-8 flex gap-3 text-muted-foreground">
             {[
-              [Code2, "GitHub", socialData.github],
-              [Network, "LinkedIn", socialData.linkedin],
+              ["icons/github.png", "GitHub", socialData.github],
+              ["icons/linkedin.png", "LinkedIn", socialData.linkedin],
               [Mail, "Email", socialData.email],
-            ].filter(([, , href]) => href).map(([Icon, label, href]) => (
+            ].filter(([, , href]) => href).map(([IconOrPath, label, href]) => (
               <a
                 key={label}
                 href={href}
                 aria-label={label}
-                className="grid size-10 place-items-center rounded-xl border border-white/10 bg-white/[0.03] transition hover:border-primary/50 hover:text-foreground"
+                className={`grid size-12 place-items-center rounded-xl border border-white/10 transition hover:border-primary/50 hover:text-foreground ${
+                  label === "GitHub" ? "bg-white/[0.03] dark:bg-white" : "bg-white/[0.03]"
+                }`}
               >
-                <Icon className="size-4" />
+                {typeof IconOrPath === "string" ? (
+                  <img src={`${import.meta.env.BASE_URL}${IconOrPath}`} alt={label} className="size-7 object-contain" />
+                ) : (
+                  <IconOrPath className="size-6" />
+                )}
               </a>
             ))}
           </div>

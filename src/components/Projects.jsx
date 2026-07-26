@@ -4,7 +4,6 @@ import { Link } from "react-router-dom"
 
 import SectionHeading from "@/components/SectionHeading"
 import projectsData from "@/data/projects.json"
-import placeholderImage from "@/assets/project-placeholder.png"
 
 const container = {
   hidden: { opacity: 0 },
@@ -23,7 +22,7 @@ const item = {
 
 function Projects() {
   const handleImageError = (e) => {
-    e.target.src = placeholderImage
+    e.target.src = `${import.meta.env.BASE_URL}project-placeholder.png`
   }
 
   return (

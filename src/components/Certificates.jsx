@@ -2,7 +2,6 @@ import { ExternalLink } from "lucide-react"
 
 import SectionHeading from "@/components/SectionHeading"
 import certificatesData from "@/data/certificates.json"
-import placeholderImage from "@/assets/project-placeholder.png"
 import { Button } from "@/components/ui/button"
 import {
   Carousel,
@@ -14,7 +13,7 @@ import {
 
 function Certificates() {
   const handleImageError = (e) => {
-    e.target.src = placeholderImage
+    e.target.src = `${import.meta.env.BASE_URL}project-placeholder.png`
   }
 
   return (

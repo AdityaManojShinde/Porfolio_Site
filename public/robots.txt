@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://AdityaManojShinde.github.io/Porfolio_Site/sitemap.xml
