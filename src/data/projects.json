@@ -1,31 +1,73 @@
 [
-  {
-    "id": 1,
-    "title": "PipelineAI",
-    "description": "AI workflow automation platform.",
-    "image": "/projects/pipelineai.png",
-    "github": "https://github.com/...",
-    "demo": "https://...",
-    "featured": true,
-    "tags": [
-      "React",
-      "FastAPI",
-      "LangChain",
-      "PostgreSQL"
-    ]
-  },
+  
   {
     "id": 2,
     "title": "Fake News Detector",
-    "description": "Machine Learning model for fake news detection.",
+    "description": "Fake news classification using TF-IDF and Logistic Regression with an interactive Hugging Face deployment.",
     "image": "/projects/fakenews.png",
+    "github": "...",
+    "demo": "https://huggingface.co/spaces/AdityaManojShinde/Fake-News-Detector",
+    "featured": true,
+    "tags": [
+      "Python",
+      "Scikit-Learn",
+      "Logistic Regression",
+      "TF-IDF",
+      "Pandas",
+      "Matplotlib",
+      "Hugging Face"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Phishing Mail Classification Using NLP",
+    "description": "End-to-end phishing email detector comparing Random Forest, Logistic Regression, and Multinomial Naive Bayes with a FastAPI deployment.",
+    "image": "/projects/phishing.png",
+    "github": "...",
+    "demo": "https://phishingemaildetector.fastapicloud.dev/",
+    "featured": true,
+    "tags": [
+      "Python",
+      "NLP",
+      "FastAPI",
+      "Scikit-Learn",
+      "TF-IDF",
+      "NumPy",
+      "SciPy"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Natural Language to SQL Chatbot",
+    "description": "AI-powered SQL assistant that converts natural language into SQL queries using LangChain and Groq.",
+    "image": "/projects/sql-chatbot.png",
+    "github": "https://github.com/AdityaManojShinde/Natural-Language-To-SQL-Chatbot",
+    "demo": "...",
+    "featured": true,
+    "tags": [
+      "Python",
+      "Streamlit",
+      "LangChain",
+      "Groq",
+      "MySQL",
+      "LangSmith"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Handwritten Digit Classifier",
+    "description": "ResNet-18 based handwritten digit classifier fine-tuned on combined MNIST and EMNIST datasets, achieving 99.46% accuracy.",
+    "image": "/projects/digit-classifier.png",
     "github": "...",
     "demo": "...",
     "featured": false,
     "tags": [
-      "Python",
-      "Scikit-Learn",
-      "Gradio"
+      "PyTorch",
+      "Computer Vision",
+      "ResNet-18",
+      "MNIST",
+      "EMNIST",
+      "Deep Learning"
     ]
   }
 ]

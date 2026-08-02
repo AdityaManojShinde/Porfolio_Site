@@ -1,16 +1,31 @@
 [
   {
-    "title": "IBM Quantum Global Summer School",
-    "issuer": "IBM",
-    "date": "2026",
-    "image": "/certificates/qgss.png",
+    "title": "Crash Course on Python",
+    "issuer": "Google",
+    "date": "2025",
+    "image": "/certificates/google-python.png",
     "credential": "https://..."
   },
   {
-    "title": "Machine Learning Specialization",
-    "issuer": "Coursera",
+    "title": "Introduction to Git and GitHub",
+    "issuer": "Google",
     "date": "2025",
-    "image": "/certificates/ml.png",
+    "image": "/certificates/git-github.png",
+    "credential": "https://..."
+  },
+  {
+    "title": "Learn TypeScript",
+    "issuer": "Boot.dev",
+    "date": "2025",
+    "image": "/certificates/typescript.png",
+    "credential": "https://..."
+  },
+  {
+    "title": "Learn Linux",
+    "issuer": "Boot.dev",
+    "date": "2025",
+    "image": "/certificates/linux.png",
     "credential": "https://..."
   }
+  
 ]

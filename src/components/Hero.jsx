@@ -17,13 +17,13 @@ function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/[0.03] px-3 py-1 text-sm text-muted-foreground">
+          <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/3 px-3 py-1 text-sm text-muted-foreground">
             <span className="size-2 rounded-full bg-emerald-400" />
             Data Analytics student · AI/ML builder
           </div>
 
           <h1 className="max-w-4xl text-5xl font-medium leading-[0.98] tracking-[-0.06em] text-foreground md:text-7xl">
-            {profileData.title.split('|')[0].trim()} with <span className="bg-gradient-to-r from-primary to-indigo-500 bg-clip-text text-transparent">clean engineering</span>.
+            {profileData.title.split('|')[0].trim()} & <span className="bg-gradient-to-r from-primary to-indigo-500 bg-clip-text text-transparent">Full-Stack AI Developer</span>.
           </h1>
 
           <p className="mt-6 max-w-2xl text-lg leading-8 text-muted-foreground">
